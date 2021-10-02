@@ -1,2 +1,0 @@
-print("Payut")
-print("keng")
