@@ -17,4 +17,7 @@
 # # print("Format is:",FORMAT)
 # print("Format is:",logging.basicConfig(format=FORMAT))
 
-print("YOLOv5 🚀")
+# print("YOLOv5 🚀")
+
+# w = weights[0] if isinstance(5, int) else 5
+# print(w)
