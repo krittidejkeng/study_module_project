@@ -21,3 +21,8 @@
 
 # w = weights[0] if isinstance(5, int) else 5
 # print(w)
+
+A = 123
+X = (A==123)
+print("A is",A)
+print("X is",X)
