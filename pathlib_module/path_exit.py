@@ -1,7 +1,7 @@
 from pathlib import Path
 
 path = Path("runs/detect/test.txt")
-
+print("Path is ",path)
 if path.exists():
     print("file exists")
 else:
