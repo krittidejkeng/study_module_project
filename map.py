@@ -23,11 +23,11 @@ to each item of a given iterable (list, tuple etc.)
 
 
 # **************************************************************************
-# numbers = (1, 2, 3, 4)
-# result = map(lambda x: x + x, numbers)
-# print('map & lambda',list(result))
+numbers = [1, 2, 3, 4]
+result = map(lambda x: x + x, numbers)
+print('map & lambda',list(result))
 # --------------------------------------------------------------------------
 
 
-listofNum = list(filter(lambda x : type(x) in [int,type(str)], [1,3,'name',False,'haha','lol',True,True]))
-print('Filtered List : ', listofNum)
+# listofNum = list(filter(lambda x : type(x) in [int,type(str)], [1,3,'name',False,'haha','lol',True,True]))
+# print('Filtered List : ', listofNum)
