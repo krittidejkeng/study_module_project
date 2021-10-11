@@ -37,14 +37,21 @@ import types
 
 
 
-lst = [10, 50, 75, 83, 98, 84, 32] 
-res = list(map(lambda x:x, lst))
+# lst = [10, 50, 75, 83, 98, 84, 32] 
+# # res = list(map(lambda x:x, lst))
+# res = list(map(lambda x:x, lst))
+# # ans = bool(map(lambda x : True if type(res) in [12,3,'ll'] else False,res))
+# print(res) 
 
-ans = bool(map(lambda x : True if type(res) in [12,3,'ll'] else False,res))
-print(res) 
-
-
-
-
-
+# A = [-22,-10,0,3,8]
+# b = bool(map(lambda x: x[0], filter(lambda x: x[0] == x[1], enumerate([-2,1,2,3,8]))))
+# print('b is',b)
+# b = list(map(lambda x: x[0], filter(lambda x: x[0] == x[1], enumerate([-2,1,2,3,8]))))
+# print('b list is',b)
 # m.inplace = list(filter(lambda m : type(m) in [nn.Hardswish, nn.LeakyReLU, nn.ReLU, nn.ReLU6, nn.SiLU, Detect, Model] and x < 20, listofNum))
+
+k = [1,3,6,4,9,7]
+b = bool(map(lambda x: x, filter(lambda x: x[0] == x[1], enumerate([-2,1,2,3,8]))))
+print('b is',b)
+
+# res = lambda (list(map(lambda x:x, k))) : x,
